@@ -1,0 +1,9 @@
+GET http://localhost:8080/ HTTP/1.1
+### 
+
+POST http://localhost:8080/api/v1/user?UID=1&name=10&age=10&gender=female HTTP/1.1
+content-type: application/json
+###
+
+PUT http://localhost:8080/api/v1/user?UID=1&name=11&age=15&gender=male HTTP/1.1
+content-type: application/json
